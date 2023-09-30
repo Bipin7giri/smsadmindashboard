@@ -15,27 +15,27 @@ import { MenuNavBarItem } from './interfaces'
 
 const logout = true
 const menuNavBar: MenuNavBarItem[] = [
-  {
-    icon: mdiMenu,
-    label: 'Sample menu',
-    menu: [
-      {
-        icon: mdiClockOutline,
-        label: 'Item One',
-      },
-      {
-        icon: mdiCloud,
-        label: 'Item Two',
-      },
-      {
-        isDivider: true,
-      },
-      {
-        icon: mdiCrop,
-        label: 'Item Last',
-      },
-    ],
-  },
+  // {
+  //   icon: mdiMenu,
+  //   label: 'Sample menu',
+  //   menu: [
+  //     {
+  //       icon: mdiClockOutline,
+  //       label: 'Item One',
+  //     },
+  //     {
+  //       icon: mdiCloud,
+  //       label: 'Item Two',
+  //     },
+  //     {
+  //       isDivider: true,
+  //     },
+  //     {
+  //       icon: mdiCrop,
+  //       label: 'Item Last',
+  //     },
+  //   ],
+  // },
   {
     icon: mdiThemeLightDark,
     label: 'Light/Dark',

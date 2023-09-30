@@ -33,19 +33,15 @@ const DepartmentList = () => {
     confirm({
       content: 'Do you want to block this user?',
       onOk() {
-        openNotification('OKE')
-
-        // api
-        //   .patch('/auth/blockuser', {
-        //     userId: id,
-        //   })
-        //   .then((res) => {
-        //     openNotification(res.data.message)
-        //     mutate(null)
-        //   })
-        //   .catch((err) => {
-        //     openNotification(err.message)
-        //   })
+        api
+          .delete('/admin/department/'+id)
+          .then((res) => {
+            openNotification(res.data.message)
+            mutate(null)
+          })
+          .catch((err) => {
+            openNotification(err.message)
+          })
       },
       onCancel() {
         console.log('Cancel')

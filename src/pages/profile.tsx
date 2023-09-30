@@ -190,7 +190,7 @@ const ProfilePage = () => {
                   </Formik>
                 </CardBox>
               </div>
-
+{/* 
               <CardBox hasComponentLayout>
                 <Formik
                   initialValues={{
@@ -255,7 +255,7 @@ const ProfilePage = () => {
                     </CardBoxComponentFooter>
                   </Form>
                 </Formik>
-              </CardBox>
+              </CardBox> */}
             </div>
           </SectionMain>
         </>

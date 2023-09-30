@@ -107,20 +107,11 @@ export default function Login() {
               </FormField>
               <p className="text-red-400"> {error.password}</p>
 
-              <div className="flex justify-between">
-                <FormCheckRadio type="checkbox" label="Remember">
-                  <Field type="checkbox" name="remember" />
-                </FormCheckRadio>
-                <button onClick={() => handleRegister()} className="font-mono">
-                  Register Now
-                </button>
-              </div>
 
               <BaseDivider />
 
               <BaseButtons>
                 <BaseButton type="submit" label="Login" color="info" />
-                <BaseButton href="/dashboard" label="Home" color="info" outline />
               </BaseButtons>
             </Form>
           </Formik>
